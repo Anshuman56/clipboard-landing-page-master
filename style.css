@@ -1,0 +1,162 @@
+*, *:after, *:before{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(210, 10%, 33%);
+}
+/*  header  */
+header{
+    height: 660px;
+    background: url(images/bg-header-desktop.png) top left no-repeat;
+    padding-top: 129px;
+}
+h1{
+    font-size: 35px;
+    margin-top: 70px;
+    font-weight: 600;
+    margin-bottom: 36px;
+
+}
+p{
+    line-height: 23px;
+    color:hsl(201, 11%, 66%) ;
+    
+}
+button{
+    width: 230px;
+    height: 59px;
+    margin-top: 57px;
+    border-radius: 50px;
+    background: hsl(171, 66%, 44%);
+    border: 0;
+    border-bottom: 3px solid hsl(171, 66%, 30%) ;
+    box-shadow: 0 5px 20px hsl(171, 66%, 44%);
+    color: white;
+    font-size: 16px;
+}
+button + button{
+    margin-left: 16px;
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 3px solid  hsl(233, 100%, 40%) ;
+    box-shadow: 0 5px 20px hsl(233, 100%, 69%);
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* common style for all section */
+h2{
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 43px;
+}
+section p{
+    margin-bottom: 70px;
+    font-size: 16px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+section h3 + p{
+    font-size: 14px;
+}
+/* section one */
+.one{
+    height: 972px;
+    padding-top: 60px;
+}
+.one img{
+    margin-left: -280px;
+    
+}
+.one aside, .one img{
+    display: inline-block;
+    vertical-align: top;
+}
+.one aside{
+    text-align: left;
+    margin-left: 113px;
+    margin-top: 71px;
+}
+/* inside section one - aside */
+
+
+/* section two */
+.two {
+    height: 900px;
+}
+
+/* section three */
+.three{
+    height: 480px;
+}
+div{
+    display: inline-block;
+    vertical-align: top;
+    height: 240px;
+    margin: 20px
+}
+div img{
+    height: 90px;
+    padding-bottom: 47px;
+   
+}
+/* section four */
+.four{
+    height: 563px;
+}
+.four img{
+    margin: 30px;
+    margin-bottom: 168px;
+}
+.four p{
+    margin: 0;
+}
+/* footer */ 
+footer{
+    height: 147px;
+    padding-top: 43px;
+    background: hsl(201, 11%, 95%);
+}
+footer div{
+    width: 140px;
+    height: 60px;
+    
+    text-align: left;
+    margin: 0;
+   
+}
+h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+h4 +   h4{
+    margin-top: 30px;
+   
+}
+h4:hover{
+    cursor: pointer;
+    color:hsl(171, 66%, 50%);
+}
+footer > img{
+    height: 56px;
+    
+    margin-right: 200px;
+}
+.icon{
+    margin-left: 180px;
+    padding: 10px;
+}
+.icon img{
+    height: 70px;
+    margin-left: 10px;
+}
+
+
